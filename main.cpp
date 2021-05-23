@@ -28,8 +28,14 @@ int main() {
  }
 pont=vet;
 maxmin(pont,N,max,min);
-
-
+for(int i=0;i<N;i++){
+  if(i==(N-1)){
+    cout<<pont[i]<<endl;
+  }else{
+  cout<<pont[i]<<",";
+  }
+}
+cout<<"Max="<<max<<", min="<<min<<endl;
 
 
 }
